@@ -1,0 +1,50 @@
+header {
+    background-color: #1FC561;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+
+header .logo span {
+    font-weight: bold;
+    padding-left: 0.3rem;
+}
+
+header .logo .fa-reddit {
+    font-size: 1.45rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    /*display: block;
+    margin: auto; do this for larger screens*/
+    margin-left: 1rem;
+
+}
+
+.search input {
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 270px;
+    font-size: 1rem;
+    padding-left: 0.8rem;
+}
+
+.search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.15rem;
+}
